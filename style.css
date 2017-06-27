@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;} 
+
+body {
+  background: white;
+}
+
+h1 {
+	color:black;
+  font-family:"Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+  font-style: oblique;
+	font-size: 100px;
+	padding:50px;
+	margin:50;
+  text-align:center;
+}
+
+p{color:black;
+  font-family:"Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+  font-style: oblique;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  margin:50;
+  text-align: center;
+
+}
+
+.logo{
+  background: url(./images/lulworth.png)center center no-repeat;
+  overflow: hidden;
+  padding-top: 20%;
+  padding-bottom: 10%;
+;
+}
